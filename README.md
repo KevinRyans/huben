@@ -1,25 +1,38 @@
-# huben
+# HUBen
 
-This repository contains the frontend for **HUBen**, a platform that helps SMBs monitor whether company e‑mails are involved in known breaches. The UI is built with React, Vite and Tailwind CSS and includes multiple pages:
+Dette prosjektet inneholder en enkel fullstack-applikasjon for HUBen. Frontenden er bygget med React (uten Vite) og Tailwind CSS, mens backend bruker Express.
 
-- **Hjem** – introduksjon og enkel søk etter lekkede e‑poster
-- **Priser** – oversikt over abonnement
-- **Bedriftspanel** – dashboard for kunder med lisens
-- **Adminpanel** – administrative verktøy (placeholder)
+## Strukturer
 
-The application is structured with React Router and ready to be connected to an Express backend later.
-
-## Getting started
-
-```bash
-cd cyberhub/huben-frontend
-npm install
-npm run dev
+```
+frontend/  - React-klienten
+backend/   - Express-serveren
 ```
 
-For a production build run:
+## Komme i gang
+
+Installer avhengigheter i begge mapper:
 
 ```bash
-npm run build
-npm run preview
+cd frontend && npm install
+cd ../backend && npm install
+```
+
+Start utviklingsmiljøet (to terminaler):
+
+```bash
+# terminal 1
+cd frontend
+npm start
+
+# terminal 2
+cd backend
+npm start
+```
+
+Bygg frontenden for produksjon og server den via Express:
+
+```bash
+cd frontend && npm run build
+cd ../backend && npm start
 ```
