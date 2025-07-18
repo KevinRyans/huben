@@ -1,0 +1,6 @@
+node_modules
+# logs
+yarn.lock
+npm-debug.log*
+.DS_Store
+dist
