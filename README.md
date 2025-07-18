@@ -1,3 +1,4 @@
+ vspn0b-codex/create-frontend-project-for-huben-platform
 # HUBen
 
 Dette prosjektet inneholder en enkel fullstack-applikasjon for HUBen. Frontenden er bygget med React (uten Vite) og Tailwind CSS, mens backend bruker Express.
@@ -36,3 +37,4 @@ Bygg frontenden for produksjon og server den via Express:
 cd frontend && npm run build
 cd ../backend && npm start
 ```
+main
